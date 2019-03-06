@@ -1,0 +1,113 @@
+
+
+
+
+body {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-business-casual/img/bg.jpg);  background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.backgroundvale {
+    height: 100%;
+    width: 100%;
+    background: rgba(47,23,15,.65);
+}
+
+.topBlock {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: stretch;
+    padding: 60px;
+}
+
+.topBannerTextUpper {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(190, 190, 7);
+}
+
+.topBannerTextBottom {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.topNav {
+    height: 100px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: stretch;
+    align-items: center;
+    background: rgba(47,23,15,.9);
+}
+
+.topNavRapper {
+    width: 40vw;
+    height: 30px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.topNavRapper div {
+    margin: 10px
+}
+
+.landingPicMain{
+    width: 900px;
+    height: 600px;
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-business-casual/img/intro.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 30vw;
+    top: 10vh;
+    border-radius: .7%;
+}
+
+.landingPicMainTextOverlay {
+    width: 500px;
+    height: 400px;
+    background:  rgba(255, 255, 255, 0.9);
+    position: relative;
+    left: 15vw;
+    bottom: 48vh;
+    border-radius: 1%;
+    padding: 10px;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.test {
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
